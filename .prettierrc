@@ -1,0 +1,12 @@
+{
+    "singleQuote": true,
+    "printWidth": 80,
+
+    "importOrder": ["^[a-zA-Z]", "^@(?!/)", "^@/", "^[./]"],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false
+}

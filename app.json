@@ -1,0 +1,48 @@
+{
+    "expo": {
+        "name": "nativeapp-fitness",
+        "scheme": "nativeapp-fitness",
+        "slug": "nativeapp-fitness",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/images/logomini.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/splash.png",
+            "backgroundColor": "#192126"
+        },
+        "ios": {
+            "supportsTablet": false,
+            "infoPlist": {
+                "UIViewControllerBasedStatusBarAppearance": true
+            }
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/images/logomini.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.nddev.nativeappfitness"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "plugins": ["expo-router", "expo-font", "expo-sqlite", "expo-asset"],
+        "androidStatusBar": {
+            "backgroundColor": "#192126",
+            "translucent": false
+        },
+        "extra": {
+            "router": {
+                "origin": false
+            },
+            "eas": {
+                "projectId": "c02419f4-142c-42af-95f8-6bed4a290cad"
+            }
+        },
+        "assets": [
+            "./assets/database/fitness_v2.db"
+        ],
+        "owner": "3stupidman"
+    }
+}
